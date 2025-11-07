@@ -26,6 +26,8 @@ source sound-slicer-env/bin/activate
 Step 4: Install Backend Dependencies
 # Install all required Python packages
 pip install -r requirements.txt
+
+
 Step 5: Verify Node.js Installation
 Required: Node.js 16+ (for frontend)
 
