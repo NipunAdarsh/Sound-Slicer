@@ -81,7 +81,8 @@ Neon magenta/cyan color scheme
 Smooth animations and hover effects
 
 
-Step 10: Test the Complete Flow
+# Step 10: 
+Test the Complete Flow
 Upload: Drag an MP3/WAV file onto the drop zone
 Processing: Watch animated waveform bars
 Results: See audio players for vocals and accompaniment
