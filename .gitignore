@@ -1,0 +1,12 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore audio files and outputs
+*.wav
+*.mp3
+data/stems/
+data/output/

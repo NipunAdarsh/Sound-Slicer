@@ -1,0 +1,29 @@
+# Core scientific stack
+numpy==1.23.5
+
+# Machine learning backend (compatible with Spleeter 2.4.0 requirement: >=2.5.0,<2.10.0)
+tensorflow==2.9.3
+
+# Spleeter for source separation
+spleeter==2.4.0
+
+# Let Spleeter handle its own dependencies
+# Spleeter 2.4.0 will install: click==7.1.2, typer==0.3.2
+
+# Audio utilities
+pydub==0.25.1
+soundfile==0.12.1
+sounddevice==0.4.6
+
+# Librosa + its dependencies (needed by Spleeter)
+librosa==0.9.2
+numba==0.56.4
+llvmlite==0.39.1
+
+# Web framework - Flask 2.0.3 works with click 7.x
+flask==2.0.3
+werkzeug==2.0.3
+flask-socketio==5.3.6
+flask-cors==4.0.0
+python-socketio==5.10.0
+eventlet==0.33.3
