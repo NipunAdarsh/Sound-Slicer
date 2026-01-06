@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Audio Data (keep folder structure but ignore content)
+data/input/*
+!data/input/.gitkeep
+data/stems/*
+!data/stems/.gitkeep
+data/output/*
+!data/output/.gitkeep
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# OS Files
+.DS_Store
+Thumbs.db
